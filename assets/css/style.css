@@ -10,13 +10,7 @@ body {
     background-color: #d9dcd6;/*background color across visible page elements*/
 }
 
-/*hyperlinks*/
-a {
-    color: #ffffff; /*font color*/
-    text-decoration: none;
-}
-
-/*top style start*/
+/*top bar start*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -30,9 +24,10 @@ a {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /*changing font color middle of header*/
 }
 
+/*hyperlinks styling*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,8 +40,14 @@ a {
     display: inline-block;
     margin-left: 25px;
 }
-/*top bar style end*/
 
+a {
+    color: #ffffff; /*font color*/
+    text-decoration: none;
+}
+/*top bar end*/
+
+/*large image in center of page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -56,6 +57,7 @@ a {
     background-position: center;
 }
 
+/*main section start*/
 .content {
     width: 75%;
     display: inline-block;
@@ -72,12 +74,11 @@ a {
     margin-left: 25px;
 }
 
-/*paragraph styling*/
 p {
-    font-size: 16px;
+    font-size: 16px; /*paragraph font size*/
 }
 
-.main-section {
+.main-section { 
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -87,14 +88,16 @@ p {
 }
 
 .main-section img {
-    max-height: 200px;
+    max-height: 200px; /*size of images in main sections*/
 }
 
 .main-section h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 36px; 
 }
+/*main section end*/
 
+/*sidebar styling start*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -121,7 +124,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*sidebar end*/
 
+/*footer*/
 .footer {
     padding: 30px;
     clear: both;
@@ -132,3 +137,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*footer*/
