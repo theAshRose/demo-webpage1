@@ -1,7 +1,10 @@
+/*much of this page was out of order with how the data is presented in the HTML document,
+ they were rerranged to be accurate in accordance with HTML standard order*/
+
 /*controls box type and orientation of elements across page*/
 * {
-    box-sizing: border-box;
-    padding: 0;
+    box-sizing: border-box; /*allows child containers to fit inside parent ones seamlessly, allocating for padding, margin, border all at once*/
+    padding: 0; /*padding and margin set to 0 by default to allow the border-box designation easier functionality*/
     margin: 0;
 }
 
@@ -12,14 +15,14 @@ body {
 
 /*top bar start*/
 .header {
-    padding: 20px;
+    padding: 20px; /*space designated around the header element*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #2a607c; /*color found at the top bar of the screen*/
+    color: #ffffff; /*font color change*/
 }
 
 .header h1 {
-    display: inline-block;
+    display: inline-block; /*allows element to be displayed respecting margin and padding*/
     font-size: 48px;
 }
 
@@ -29,26 +32,26 @@ body {
 
 /*hyperlinks styling*/
 .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
+    padding-top: 15px; /* padding designated for inline-block nav portion */
+    margin-right: 20px; /* margin designated for inline-block nav portion */ 
+    float: right; /*floats our list items to right within/relative to parent element*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline-block; /*see line 25 notation*/
+    margin-left: 25px; /*gives space between list items, which is needed as they are designated to be inline-block*/
 }
 
 a {
     color: #ffffff; /*font color*/
-    text-decoration: none;
+    text-decoration: none; /*removes underline from links! very useful trick*/
 }
 /*top bar end*/
 
 /*large image in center of page*/
-.hero {
+.hero { /*i changed this to an ID as it is only used once for the page*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -78,7 +81,7 @@ p {
     font-size: 16px; /*paragraph font size*/
 }
 
-.main-section { 
+.main-section { /*consolidated from 3 blocks of code into this single, renamed class*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -87,11 +90,11 @@ p {
     color: #ffffff;
 }
 
-.main-section img {
+.main-section img { /*consolidated from 3 blocks of code into this single, renamed class*/
     max-height: 200px; /*size of images in main sections*/
 }
 
-.main-section h2 {
+.main-section h2 { /*consolidated from 3 blocks of code into this single, renamed class*/
     margin-bottom: 20px;
     font-size: 36px; 
 }
@@ -109,17 +112,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-bar {
+.benefit-bar { /*removed 2 redundant blocks of code and renamed this one*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-bar h3 {
+.benefit-bar h3 { /*removed 2 redundant blocks of code and remaned this one for all 3*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-bar img {
+.benefit-bar img {  /*removed 2 redundant blocks of code and renamed this one to fit all 3 images with a single class*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
