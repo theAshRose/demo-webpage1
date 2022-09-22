@@ -4,7 +4,10 @@
 
 This is a simple webpage in which I mastered HTML semantics and how they interact with CSS elements. I learned how to add proper notation, reduce redundancy in code, and fix a couple basic bugs. This was all done in the name of making the webpage accessible. Accesibility means that other developers and screen readers can navigate the webpage without having to do extra work.
 
-## Sample image
+Here we are using HTML and CSS
+
+## Sample Usage
+There is only text on the screen along with basic design which is easy on the eyes. Simple navigation links direct the user to this text boxes on the bottom-half of the page.
 ![screenshot](assets/images/webpage%20screenshot.png)
 
 # Code Snippit
